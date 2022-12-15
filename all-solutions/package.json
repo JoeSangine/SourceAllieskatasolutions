@@ -1,0 +1,31 @@
+{
+  "name": "interview-javascript-template",
+  "version": "1.0.0",
+  "description": "Template for javascript interviews",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "lint": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourceallies/interview-javascript-template.git"
+  },
+  "author": "SAI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourceallies/interview-javascript-template/issues"
+  },
+  "homepage": "https://github.com/sourceallies/interview-javascript-template#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "eslint": "^8.29.0",
+    "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "eslint-plugin-jest": "^27.1.6",
+    "node-fetch": "^2.6.7"
+  }
+}
